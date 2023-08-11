@@ -31,25 +31,15 @@ $('form').validate({
             }
         },
         messages: {
-            nome: 'Por favor, insira o seu nome completo'
-        },
-        messages: {
-            email: 'Por favor, insira seu e-mail'
-        },
-        messages: {
-            telefone: 'Por favor, insira seu telefone'  
-        },
-        messages: {
-            cep: 'Por favor, insira seu CEP'
-        },
-        messages: {
-            cpf: 'Por favor, insira seu CPF'  
-        },
-        messages: {
-            numero: 'Por favor, insira seu número'  
-        },
-        messages: {
-            rua: 'Por favor, insira sua rua'  
+
+            nome: 'Por favor, insira o seu nome completo',
+            email: 'Por favor, insira seu e-mail',   
+            telefone: 'Por favor, insira seu telefone',    
+            cep: 'Por favor, insira seu CEP',    
+            cpf: 'Por favor, insira seu CPF',    
+            numero: 'Por favor, insira seu número',    
+            rua: 'Por favor, insira sua rua'
+    
         },
         submitHandler: function(form) {
             console.log(form)
