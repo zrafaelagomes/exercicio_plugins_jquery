@@ -15,18 +15,14 @@
     padding: 8px;
 }
 
-.form textarea {
-    resize: none;
-    height: 120px;
-}
-
-.form-extra label,
-.form-extra input,
-.form-extra textarea {
+.form-row label,
+.form-row input,
+.form-row textarea {
     display: flex;
     font-weight: bold;
     width: 40%;
     padding: 8px;
+    gap: 16px; 
 }
 
 .form-extra-extra label,
@@ -78,6 +74,7 @@ button {
     font-style: italic;
     cursor: pointer;
     border-radius: 6px;
+    margin-top: 16px; 
 }
 
 form {
@@ -90,13 +87,23 @@ footer img {
 
 p {
     padding-left: 24px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-around;
 }
-
 .form {
     padding-top: 12px;
 }
 
-.container-flex {
+ul {
     display: flex;
-    align-items: center;
+    gap: 16px;
+    list-style: none;
+    margin-top: 8px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    justify-content: center;
 }
+
+
